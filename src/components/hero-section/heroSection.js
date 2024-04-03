@@ -8,9 +8,9 @@ const heroSection = () => {
             <img src='assets/hero-banner.png' alt='hero' className='object-cover object-center'/>
             </div>
 
-            <div className='absolute top-[30%] left-[50%]'>
-                <h1 className='text-5xl font-bold text-[red]'>Discover Your Next Adventure</h1>
-                <p className='text-center text-2xl mt-5 font-semibold'>
+            <div className='absolute top-[30%]  w-full text-end right-5'>
+                <h1 className='text-1xl font-bold text-red-500 sm:text-2xl md:text-3xl lg:text-4xl xl:text-4xl'>Discover Your Next Adventure</h1>
+                <p className='text-[10px] lg:text-2xl mt-2 lg:mt-5 font-semibold  '>
                     Shop our Latest Arrival & Unleash Your Style
                 </p>
             </div>
