@@ -29,7 +29,9 @@ const Navbar = () => {
                         <Link to='/'>
                             <li className='mr-5 hover:text-gray-900 cursor-pointer'>Home</li>
                         </Link>
+                        <Link to='/allproducts'>
                         <li className='mr-5 hover:text-gray-900 cursor-pointer'>All Products</li>
+                        </Link>
                         <li className='mr-5 hover:text-gray-900 cursor-pointer'>Mens</li>
                         <li className='mr-5 hover:text-gray-900 cursor-pointer'>Kids</li>
                     </ul>
@@ -41,7 +43,9 @@ const Navbar = () => {
                             <Link to='/'>
                                 <li className='mt-5 hover:text-gray-900 cursor-pointer'>Home</li>
                             </Link>
+                            <Link to='/allproducts'>
                             <li className='mt-5 hover:text-gray-900 cursor-pointer'>All Products</li>
+                            </Link>
                             <li className='mt-5 hover:text-gray-900 cursor-pointer'>Mens</li>
                             <li className='mt-5 hover:text-gray-900 cursor-pointer'>Kids</li>
                         </ul>
@@ -57,9 +61,11 @@ const Navbar = () => {
 
                     {/* LOGIN BUTTON */}
                     <div className='flex justify-center items-center gap-3'>
+                        <Link to='/login'>
                         <button className=' bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base font-semibold'>
                             Login
                         </button>
+                        </Link>
                         <Link to='/cart'>
                             <button>
                                 <FaShoppingCart size={25}/>
